@@ -1,0 +1,15 @@
+.appWrapper {
+    width: 790px;
+    margin: 0;
+    padding: 10px;
+    background-color: #ECECEC;
+}
+
+.app {
+    padding-left: 27px;
+    padding-right: 17px;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 320px;
+}

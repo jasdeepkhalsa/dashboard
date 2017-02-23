@@ -1,0 +1,28 @@
+{
+  "line-graph": [
+    {"date": "2016-12-01", "value": "94", "label": false, "prediction": false},
+    {"date": "2017-1-10", "value": "93.5", "label": false, "prediction": false},
+    {"date": "2017-3-15", "value": "90.00", "label": false, "prediction": false},
+    {"date": "2017-5-20", "value": "93.35", "label": false, "prediction": false},
+    {"date": "2017-7-25", "value": "93.00", "label": false, "prediction": false},
+    {"date": "2017-8-1", "value": "93.35", "label": false, "prediction": false},
+    {"date": "2017-8-10", "value": "93.45", "label": false, "prediction": false},
+    {"date": "2017-8-11", "value": "93.55", "label": false, "prediction": false},
+    {"date": "2017-8-12", "value": "93.65", "label": true, "prediction": false},
+    {"date": "2017-8-12", "value": "93.65", "label": true, "prediction": true},
+    {"date": "2017-10-30", "value": "94.00", "label": false, "prediction": true},
+    {"date": "2017-11-27", "value": "94.50", "label": false, "prediction": true},
+    {"date": "2017-12-30", "value": "95.00", "label": false, "prediction": true},
+    {"date": "2018-1-1", "value": "95.50", "label": false, "prediction": true}
+  ],
+  "sales": {
+    "current": 613860,
+    "target": 800000,
+    "targetYear": 2018
+  },
+  "vehicles-made": 325,
+  "retail-orders": 1320,
+  "online-orders": 14,
+  "configurations-completed": 82900,
+  "test-drives": 658
+}

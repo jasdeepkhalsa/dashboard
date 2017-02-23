@@ -1,0 +1,15 @@
+path {
+    stroke: #007BCD;
+    stroke-width: 2;
+    fill: none;
+}
+
+path.prediction {
+    stroke: #D7D7D7;
+    stroke-dasharray: 3;
+}
+
+#graph {
+    position: absolute;
+    top: 50px;
+}

@@ -1,0 +1,41 @@
+.salesWrapper {
+    width: 727px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    background-color: #ECECEC;
+    position: absolute;
+    top: 165px;
+}
+
+.sales, .target {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+
+.sales {
+    background-color: #007BCD;
+    color: #E7F2FA;
+}
+
+.target {
+    color: #007BCD;
+}
+
+.target .text, .sales .text {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    letter-spacing: -0.2px;
+}
+
+.target .value, .sales .value {
+    position: absolute;
+    font-size: 17px;
+    right: 15px;
+    top: 8px;
+}
