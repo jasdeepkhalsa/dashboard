@@ -1,4 +1,4 @@
-var autoprefixer = require('autoprefixer');
+var postCSSConfig = require('./postcss.config');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -167,16 +167,7 @@ module.exports = {
   
   // We use PostCSS for autoprefixing only.
   postcss: function() {
-    return [
-      autoprefixer({
-        browsers: [
-          '>1%',
-          'last 4 versions',
-          'Firefox ESR',
-          'not ie < 9', // React doesn't support IE8 anyway
-        ]
-      }),
-    ];
+    return postCSSConfig;
   },
   plugins: [
     // Makes some environment variables available in index.html.
