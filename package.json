@@ -1,6 +1,6 @@
 {
-  "name": "akqa-app",
-  "version": "0.1.0",
+  "name": "dashboard",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "autoprefixer": "6.7.2",
